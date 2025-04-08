@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SignatureVerification._accelerationPresure" Collapsed="true">
+    <Position X="5.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgKAAAAIAQACAAEAAAGAACAAAAEAAAAAABAAAAABAA=</HashCode>
+      <FileName>Comparers\_accelerationPresure.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SignatureVerification._accelerationX" Collapsed="true">
+    <Position X="5.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgKAAAAIAQACAAEAAAGAACAAAAEAAAAAABAAAAABAA=</HashCode>
+      <FileName>Comparers\_accelerationX.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SignatureVerification._accelerationY" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgKAAAAIAQACAAEAAAGAACAAAAEAAAAAABAAAAABAA=</HashCode>
+      <FileName>Comparers\_accelerationY.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SignatureVerification._dynamicPresure" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgKAAAAIAQACAAEAAAGAACAAAAEAAAAAABAAAAABAA=</HashCode>
+      <FileName>Comparers\_dynamicPresure.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SignatureVerification._dynamicX" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgKAAAAIAQACAAEAAAGAACAAAAEBAAAAABAAAAABAA=</HashCode>
+      <FileName>Comparers\_dynamicX.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SignatureVerification._dynamicY" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgKAAAAIAQACAAEAAAGAACAAAAEAAAAAABAAAAABAA=</HashCode>
+      <FileName>Comparers\_dynamicY.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SignatureVerification._effectiveAverageSpeed" Collapsed="true">
+    <Position X="3" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAIAAACAAEAAAGAACAAAAAAAAAAABAAAAABAA=</HashCode>
+      <FileName>Comparers\_effectiveAverageSpeed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SignatureVerification.SignatureComparer" Collapsed="true">
+    <Position X="2.5" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAKAAAAAAAAAAAAAABCAAAAAAAAAAAAAABAAAAABAA=</HashCode>
+      <FileName>Comparers\SignatureComparer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SignatureVerification.SignatureInkCanvas">
+    <Position X="21" Y="4.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CQAgAAAABACgAAAAAAAAAIAADAIABIAQAAAAAAAAAAA=</HashCode>
+      <FileName>InkCanvas\SignatureInkCanvas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SignatureVerification.SignaturePlugin">
+    <Position X="23.5" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAQIAgAIAAAGAAAIIAAAAAAAAAA0AAgA=</HashCode>
+      <FileName>InkCanvas\SignaturePlugin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SignatureVerification.SignatureContainer" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="6.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>EAEAIAgQAAAUCACAAAAgAARgAACAAACAAApgAAAAAQI=</HashCode>
+      <FileName>SignatureContainer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.1" Collapsed="true" />
+  </Class>
+  <Class Name="SignatureVerification.Support" Collapsed="true">
+    <Position X="15" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Support.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SignatureVerification.SupportFunctions" Collapsed="true">
+    <Position X="13.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAEAAAAgAGIAggAAAQEAAAIQCAAEAABAAAAA=</HashCode>
+      <FileName>SupportFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MicroLibrary.MicroTimer" Collapsed="true">
+    <Position X="13.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARIAAEAACAAAKAEQIAAACAEAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>InkCanvas\MicroTimer\MicroTimer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MicroLibrary.MicroTimerEventArgs" Collapsed="true">
+    <Position X="15" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAQBAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InkCanvas\MicroTimer\MicroTimerEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MicroLibrary.MicroStopwatch" Collapsed="true">
+    <Position X="8.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InkCanvas\MicroTimer\MicroStopwatch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

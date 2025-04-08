@@ -1,0 +1,15 @@
+﻿<Window x:Class="SignForm.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:signatureVerification="clr-namespace:SignatureVerification;assembly=SignatureVerification"
+        Title="Sign to login 1" Height="344" Width="892"
+        WindowStyle="ToolWindow"
+        Topmost="True">
+    <StackPanel>
+        <signatureVerification:SignatureInkCanvas x:Name="InkCanvas" Margin="0" Background="Bisque" Height="273" />
+        <StackPanel Orientation="Horizontal">
+        <Button Content="Send" Grid.Column="1" Margin="0,0,0,0" VerticalAlignment="Center" Click="Button_Click"
+                Height="41" Width="883" />
+        </StackPanel>
+    </StackPanel>
+</Window>

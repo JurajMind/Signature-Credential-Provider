@@ -1,0 +1,44 @@
+﻿<Window x:Class="WpfWcfNamedPipeBinding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="800" Width="525">
+    <Grid>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="Button_SendClientList" Content="Vizualize" VerticalAlignment="Top"
+                        Width="200" Margin="50,5,0,0" Click="Vizualize_Click" />
+
+                <Button Content="Show weight" VerticalAlignment="Top"
+                        Width="200" Margin="10,5,0,0" Click="SignatureContainerInfo" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <Button x:Name="Save" Content="Save pattern" VerticalAlignment="Top"
+                        Width="200" Margin="50,5,0,0" Click="Save_Click" />
+                <Button x:Name="Load_Copy" Content="Load pattern" VerticalAlignment="Top"
+                	Width="200" Margin="10,5,0,0" Click="Load_Click" />
+
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <Button x:Name="LoadExternalPattern" Content="LoadExternalPattern" VerticalAlignment="Top"
+                        Width="200" Margin="50,5,0,0" Click="LoadExternalPattern_Click"  />
+                <Button x:Name="MissInput" Content="Missinput" VerticalAlignment="Top"
+                	Width="200" Margin="10,5,0,0" Click="MissInput_Click"  />
+
+
+
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <Button x:Name="SignForm" Content="Launch Sign Form" VerticalAlignment="Top"
+            		Width="498" Margin="10,5,0,0" Click="SignForm_Click"  />
+
+
+
+            </StackPanel>
+        </StackPanel>
+
+        <ListBox x:Name="ListBox_Messages" Margin="0,168,5,5" SelectionMode="Multiple" />
+
+
+    </Grid>
+
+</Window>
